@@ -1,0 +1,1 @@
+from .imvoxel_head_v2 import ScanNetImVoxelHeadV2, SunRgbdImVoxelHeadV2
