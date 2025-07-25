@@ -2,7 +2,7 @@
 
 ## 🚀 News
 
-- **2025.7.xx** [**arXiv**](https://arxiv.org) preprint released.
+- **2025.7.25** [**arXiv**](https://arxiv.org/abs/2507.18331) preprint released.
 - **2025.6.26** accepted by ICCV2025.
 
 ## To Do
