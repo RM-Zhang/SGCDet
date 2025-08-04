@@ -59,6 +59,10 @@ As it is not possible to list all the projects of the reference papers. If you f
 If you find our work beneficial for your research, please consider citing our paper and give us a star:
 
 ```
-@inproceedings{SGCDet_ICCV25,
+@inproceedings{SGCDet,
+ title = {Boosting Multi-View Indoor 3D Object Detection via Adaptive 3D Volume Construction},
+ author = {Zhang, Runmin and Yu, Zhu and Cao, Si-Yuan and Zhu, Lingyu and Zhang, Guangyi and Bai, Xiaokai and Shen, Hui-Liang},
+ booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+ year = {2025}
 }
 ```
