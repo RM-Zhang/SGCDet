@@ -1,14 +1,9 @@
 # Boosting Multi-View Indoor 3D Object Detection via Adaptive 3D Volume Construction
 
 ## 🚀 News
-
+- **2025.8.06** update training instructions and pretrained models.
 - **2025.7.25** [**arXiv**](https://arxiv.org/abs/2507.18331) preprint released.
 - **2025.6.26** accepted by ICCV2025.
-
-## To Do
-
-- upload pretrained models.
-- update the training & evaluation instructions.
 
 ## Abstract
 
@@ -29,6 +24,13 @@ step 2. Refer to [train_and_eval.md](./docs/train_and_eval.md) for training and 
 ## Model Zoo
 
 We provide the pretrained weights on ScanNet, ScanNet200, and ARKitScenes datasets, reproduced with the released codebase.
+
+| Dataset | Model | mAP@0.25 | mAP@0.50 | Checkpoint | Config |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | 
+| ScanNet | SGCDet | 62.2 | 36.7 | [Link](https://drive.google.com/file/d/1AnHkXg6FWjf1R4DWFZKbm_jC8879nta4/view?usp=sharing) | [Link](./configs/SGCDet_ScanNet.py) |
+| ScanNet200 | SGCDet-L | 28.9 | 14.4 | [Link](https://drive.google.com/file/d/1dp4PJc9fOI-93suG0nnyWgQ1kxB_M3tK/view?usp=sharing) | [Link](./configs/SGCDet_large_ScanNet200.py) |
+| ARKitScenes | SGCDet | 66.2 | 54.0 | [Link](https://drive.google.com/file/d/1_MBhCk1xcIc47BLSZ_7eJj6fmBXxqA5I/view?usp=sharing) | [Link](./configs/SGCDet_ARKit.py) |
+| ARKitScenes | SGCDet-L | 70.4 | 57.0 | [Link](https://drive.google.com/file/d/1AVbQGgxgyqxlr1sQDflB6nVXTW2zcM3R/view?usp=sharing) | [Link](./configs/SGCDet_large_ARKit.py) |
 
 ## License
 
