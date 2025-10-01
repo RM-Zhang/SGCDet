@@ -23,7 +23,7 @@ step 2. Refer to [train_and_eval.md](./docs/train_and_eval.md) for training and 
 
 ## Model Zoo
 
-We provide the pretrained weights on ScanNet, ScanNet200, and ARKitScenes datasets, reproduced with the released codebase.
+We provide the pretrained weights on ScanNet, ScanNet200, and ARKitScenes datasets, reproduced with the released codebase. You can also download the checkpoints from [Hugging Face](https://huggingface.co/RM-Zhang/SGCDet).
 
 | Dataset | Model | mAP@0.25 | mAP@0.50 | Checkpoint | Config |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | 
